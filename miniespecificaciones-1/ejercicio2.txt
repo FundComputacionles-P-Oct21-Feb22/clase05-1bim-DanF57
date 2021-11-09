@@ -1,0 +1,25 @@
+/*
+Calcular el costo de un terreno, a partir de sus dimensiones y el costo por metro
+cuadrado
+*/
+
+1. Inicio
+// declaro las variables
+2. largo, d[0, n]
+3. ancho, d[0, n]
+4. area, d[0, n]
+5. costoMetro, d[0, n]
+6, costoTerreno, d[0, n]
+// pido datos por teclado - entradas
+7. Escribir "Ingrese el largo del terreno"
+8. Leer largo
+9. Escribir "Ingrese el ancho del terreno"
+10. Leer ancho
+11. Escribir "Ingrese el costo del m2 del terreno"
+12. Leer costoMetro
+// proceso
+13. area <-- largo * ancho
+14. costoTerreno <-- area * costoMetro
+// salida
+15. Escribir "El costo del terreno es :" + costoTerreno
+16. Fin

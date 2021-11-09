@@ -1,0 +1,6 @@
+1. Inicio
+2. (nombre,x(30)[{a-z}, {BS}, {A-Z}])
+3. << "Ingrese el nombre de la persona"
+4. >> nombre
+5. << "El nombre ingresado es " + nombre
+6. Fin

@@ -1,0 +1,56 @@
+// ---------- Ejemplo 6
+
+// Se debe generar un algoritmo y miniespecificación que permita calcular y 
+// mostrar el valor total a pagar mensual de servicios 
+// digitales de una persona. 
+// Los servicios digitales son: netflix, youtube premium, dropbox, spotify. 
+// Si la persona es menor a 30 años se descuenta el 20% del total mensual.
+
+1.  Inicio
+
+2.  valorNetflix, d[0,n]
+3.  valorYoutube, d[0,n]
+4.  valorDropbox, d[0,n]
+5.  valorSpotify, d[0,n]
+6.  valorTotal, d[0,n]
+7.  edad, i[0,n]
+8.  descuento, d[0,n]
+9.  porcentaje, d[0,n]
+
+10.  porcentaje <-- 20
+
+11.  Escribir "Ingrese el valor mensual de Netflix"
+12.  Lea valorNetflix
+
+13.  Escribir "Ingrese el valor mensual de Youtube"
+14.  Lea valorYoutube
+
+15.  Escribir "Ingrese el valor mensual de Dropbox"
+16.  Lea valorDropbox
+
+17.  Escribir "Ingrese el valor mensual de Spotify"
+18.  Lea valorSpotify
+
+19.  Escribir "Ingrese edad de la persona"
+20.  Lea edad
+
+21.  valorTotal = valorNetflix + valorYoutube + valorDropbox + valorSpotify
+
+22.  Si edad < 30 entonces
+      // vt  ----  100%
+      // x   ----  20%
+23.   descuento <-- (porcentaje * valorTotal)/100
+24.   valorTotal <-- valorTotal - descuento
+25.  Fin si
+
+26. Escribir "El valor total a pagar es: " + valorTotal
+
+27. Fin
+
+
+
+
+
+
+
+

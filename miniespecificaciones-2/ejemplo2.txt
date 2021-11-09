@@ -1,0 +1,15 @@
+// ---------- Ejemplo 2
+
+1. Inicio
+
+2. edad, i[0,n]
+3. edad <-- 20
+
+4. Si edad >= 18 entonces
+5.   Escribir "La edad ingresada pertenece a mayor de edad"
+6. De lo contrario
+7.   Escribir "La edad ingresada pertenece a menor de edad"
+8. Fin si
+
+9. Fin
+
